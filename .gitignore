@@ -1,0 +1,51 @@
+# WordPress core (no es necesario versionar el core, se puede reinstalar)
+# Si quieres incluir el core, comenta estas líneas:
+/wp-admin/
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+
+# WordPress config (contiene credenciales de base de datos)
+wp-config.php
+
+# Local by Flywheel
+local-xdebuginfo.php
+.htaccess
+
+# Uploads (archivos multimedia - pueden ser muy pesados)
+wp-content/uploads/
+
+# Cache y archivos temporales
+wp-content/cache/
+wp-content/upgrade/
+
+# Logs
+*.log
+debug.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node modules (si usas herramientas de build)
+node_modules/
