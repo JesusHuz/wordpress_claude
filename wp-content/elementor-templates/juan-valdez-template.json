@@ -1,0 +1,1229 @@
+{
+  "version": "0.4",
+  "title": "Juan Valdez - Landing Page",
+  "type": "page",
+  "content": [
+
+    {
+      "id": "s1hdr001",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "structure": "20",
+        "gap": "no",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "0", "right": "60", "bottom": "0", "left": "60", "isLinked": false },
+        "sticky": "top",
+        "sticky_offset": 0,
+        "sticky_effects_offset": 0,
+        "sticky_on": ["desktop", "tablet", "mobile"],
+        "z_index": 999,
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": { "horizontal": 0, "vertical": 2, "blur": 15, "spread": 0, "color": "rgba(0,0,0,0.08)" }
+      },
+      "elements": [
+        {
+          "id": "s1col001",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 30, "align_self": "center" },
+          "elements": [
+            {
+              "id": "s1wgt001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"color:#E20021; font-family:'Playfair Display',serif; font-weight:700; font-size:22px; letter-spacing:1px\">Juan Valdez</span><br><span style=\"color:#888888; font-family:'Lato',sans-serif; font-weight:400; font-size:10px; letter-spacing:4px; text-transform:uppercase\">Café de Colombia</span>",
+                "header_size": "h1",
+                "align": "left"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "s1col002",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 70, "align_self": "center" },
+          "elements": [
+            {
+              "id": "s1wgt002",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "align_items": "right",
+                "pointer": "underline",
+                "animation_line": "fade",
+                "typography_typography": "custom",
+                "typography_font_family": "Lato",
+                "typography_font_size": { "unit": "px", "size": 13, "sizes": [] },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": { "unit": "px", "size": 2 },
+                "typography_text_transform": "uppercase",
+                "menu_color": "#1C0A00",
+                "menu_hover_color": "#E20021",
+                "pointer_color_hover": "#E20021"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "s2hero001",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "css_id": "inicio",
+        "height": "full",
+        "content_position": "middle",
+        "background_background": "gradient",
+        "background_color": "#1C0A00",
+        "background_color_b": "#3D1200",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": { "unit": "deg", "size": 145 },
+        "padding": { "unit": "px", "top": "120", "right": "40", "bottom": "120", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "s2col001",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100, "align_self": "center" },
+          "elements": [
+            {
+              "id": "s2wgt001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Despierta Tus Sentidos",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 72, "sizes": [] },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.15 }
+              },
+              "elements": []
+            },
+            {
+              "id": "s2wgt002",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Desde 1959, el auténtico sabor de Colombia conquista el mundo. Cada taza es una historia de pasión, origen y tradición.",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "rgba(255,255,255,0.75)",
+                "typography_typography": "custom",
+                "typography_font_family": "Lato",
+                "typography_font_size": { "unit": "px", "size": 20, "sizes": [] },
+                "typography_font_weight": "300",
+                "typography_line_height": { "unit": "em", "size": 1.7 }
+              },
+              "elements": []
+            },
+            {
+              "id": "s2wgt003",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "solid",
+                "color": "#C8A951",
+                "weight": { "unit": "px", "size": 2 },
+                "width": { "unit": "%", "size": 8 },
+                "align": "center",
+                "gap": { "unit": "px", "size": 30 }
+              },
+              "elements": []
+            },
+            {
+              "id": "s2wgt004",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Descubre Nuestros Cafés",
+                "link": { "url": "#productos", "is_external": false, "nofollow": false },
+                "align": "center",
+                "background_color": "#E20021",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Lato",
+                "typography_font_size": { "unit": "px", "size": 13, "sizes": [] },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": { "unit": "px", "size": 2 },
+                "typography_text_transform": "uppercase",
+                "border_border": "none",
+                "border_radius": { "unit": "px", "top": "3", "right": "3", "bottom": "3", "left": "3", "isLinked": true },
+                "text_padding": { "unit": "px", "top": "18", "right": "45", "bottom": "18", "left": "45", "isLinked": false },
+                "hover_color": "#FFFFFF",
+                "button_background_hover_color": "#C8A951"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "s3feat001",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F9F3E8",
+        "padding": { "unit": "px", "top": "80", "right": "60", "bottom": "80", "left": "60", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "s3col001",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 33 },
+          "elements": [
+            {
+              "id": "s3wgt001",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "icon": { "value": "fas fa-map-marker-alt", "library": "fa-solid" },
+                "title_text": "Origen Puro",
+                "description_text": "Cultivado en las mejores regiones cafeteras de Colombia: Huila, Nariño, Sierra Nevada y los Andes. Cada origen, un perfil único.",
+                "content_align": "center",
+                "title_size": "h4",
+                "icon_size": { "unit": "px", "size": 42, "sizes": [] },
+                "selected_icon_color": "#E20021",
+                "title_color": "#1C0A00",
+                "description_color": "#666666",
+                "icon_padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true },
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 20, "sizes": [] },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Lato",
+                "description_typography_font_size": { "unit": "px", "size": 15, "sizes": [] },
+                "description_typography_line_height": { "unit": "em", "size": 1.8 }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "s3col002",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 33 },
+          "elements": [
+            {
+              "id": "s3wgt002",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "icon": { "value": "fas fa-award", "library": "fa-solid" },
+                "title_text": "Calidad Superior",
+                "description_text": "100% café colombiano de las manos de más de 540.000 familias cafeteras. Reconocido como el mejor café del mundo por décadas.",
+                "content_align": "center",
+                "title_size": "h4",
+                "icon_size": { "unit": "px", "size": 42, "sizes": [] },
+                "selected_icon_color": "#E20021",
+                "title_color": "#1C0A00",
+                "description_color": "#666666",
+                "icon_padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true },
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 20, "sizes": [] },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Lato",
+                "description_typography_font_size": { "unit": "px", "size": 15, "sizes": [] },
+                "description_typography_line_height": { "unit": "em", "size": 1.8 }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "s3col003",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 33 },
+          "elements": [
+            {
+              "id": "s3wgt003",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "icon": { "value": "fas fa-heart", "library": "fa-solid" },
+                "title_text": "Tradición & Pasión",
+                "description_text": "Una marca que pertenece a los caficultores colombianos. Cada grano cosechado a mano con el amor y dedicación de generaciones enteras.",
+                "content_align": "center",
+                "title_size": "h4",
+                "icon_size": { "unit": "px", "size": 42, "sizes": [] },
+                "selected_icon_color": "#E20021",
+                "title_color": "#1C0A00",
+                "description_color": "#666666",
+                "icon_padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true },
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 20, "sizes": [] },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Lato",
+                "description_typography_font_size": { "unit": "px", "size": 15, "sizes": [] },
+                "description_typography_line_height": { "unit": "em", "size": 1.8 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "s4ptit001",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "css_id": "productos",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "90", "right": "60", "bottom": "20", "left": "60", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "s4col001",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "s4wgt001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nuestros Cafés",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#1C0A00",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 46, "sizes": [] },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.2 }
+              },
+              "elements": []
+            },
+            {
+              "id": "s4wgt002",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "solid",
+                "color": "#E20021",
+                "weight": { "unit": "px", "size": 3 },
+                "width": { "unit": "%", "size": 6 },
+                "align": "center",
+                "gap": { "unit": "px", "size": 20 }
+              },
+              "elements": []
+            },
+            {
+              "id": "s4wgt003",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center; font-family:'Lato',sans-serif; font-size:17px; color:#666666; line-height:1.8; max-width:600px; margin:0 auto\">De las montañas colombianas a tu taza. Explora nuestra colección de cafés de origen único, seleccionados por su perfil aromático excepcional.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "s5prod001",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "40", "right": "60", "bottom": "20", "left": "60", "isLinked": false },
+        "gap": "extended"
+      },
+      "elements": [
+        {
+          "id": "s5col001",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 33 },
+          "elements": [
+            {
+              "id": "s5wgt001",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": { "url": "", "id": "", "alt": "Café Volcán Juan Valdez" },
+                "title_text": "Volcán",
+                "description_text": "Tostión oscura con notas de caramelo dulce y cacao. Bajo en acidez, perfecto para quienes buscan un café intenso y reconfortante. Grano cultivado en las laderas volcánicas de los Andes.",
+                "position": "top",
+                "title_size": "h4",
+                "link_page": { "url": "#productos" },
+                "title_color": "#1C0A00",
+                "description_color": "#666666",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Playfair Display",
+                "title_typography_font_size": { "unit": "px", "size": 22, "sizes": [] },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Lato",
+                "description_typography_font_size": { "unit": "px", "size": 14, "sizes": [] },
+                "description_typography_line_height": { "unit": "em", "size": 1.8 }
+              },
+              "elements": []
+            },
+            {
+              "id": "s5wgt001b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-family:'Lato',sans-serif; font-size:12px; color:#E20021; font-weight:700; letter-spacing:2px; text-transform:uppercase; margin-top:-10px\">Tostión Oscura · Intensidad Alta</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "s5col002",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 33 },
+          "elements": [
+            {
+              "id": "s5wgt002",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": { "url": "", "id": "", "alt": "Café Huila Juan Valdez" },
+                "title_text": "Huila",
+                "description_text": "Café de origen único del departamento de Huila. Notas de naranja madura y caramelo en perfecta armonía. Reconocido internacionalmente por su acidez brillante y cuerpo equilibrado.",
+                "position": "top",
+                "title_size": "h4",
+                "title_color": "#1C0A00",
+                "description_color": "#666666",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Playfair Display",
+                "title_typography_font_size": { "unit": "px", "size": 22, "sizes": [] },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Lato",
+                "description_typography_font_size": { "unit": "px", "size": 14, "sizes": [] },
+                "description_typography_line_height": { "unit": "em", "size": 1.8 }
+              },
+              "elements": []
+            },
+            {
+              "id": "s5wgt002b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-family:'Lato',sans-serif; font-size:12px; color:#E20021; font-weight:700; letter-spacing:2px; text-transform:uppercase; margin-top:-10px\">Origen Único · Acidez Brillante</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "s5col003",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 33 },
+          "elements": [
+            {
+              "id": "s5wgt003",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": { "url": "", "id": "", "alt": "Café Finca Juan Valdez" },
+                "title_text": "Finca",
+                "description_text": "Certificado Rainforest Alliance. Notas distintivas de limonaria y kiwi en una experiencia sensorial única. Cultivado en fincas sostenibles comprometidas con el medio ambiente colombiano.",
+                "position": "top",
+                "title_size": "h4",
+                "title_color": "#1C0A00",
+                "description_color": "#666666",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Playfair Display",
+                "title_typography_font_size": { "unit": "px", "size": 22, "sizes": [] },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Lato",
+                "description_typography_font_size": { "unit": "px", "size": 14, "sizes": [] },
+                "description_typography_line_height": { "unit": "em", "size": 1.8 }
+              },
+              "elements": []
+            },
+            {
+              "id": "s5wgt003b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-family:'Lato',sans-serif; font-size:12px; color:#E20021; font-weight:700; letter-spacing:2px; text-transform:uppercase; margin-top:-10px\">Rainforest Certified · Notas Exóticas</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "s6prod002",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "20", "right": "60", "bottom": "90", "left": "60", "isLinked": false },
+        "gap": "extended"
+      },
+      "elements": [
+        {
+          "id": "s6col001",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 33 },
+          "elements": [
+            {
+              "id": "s6wgt001",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": { "url": "", "id": "", "alt": "Café Colina Juan Valdez" },
+                "title_text": "Colina",
+                "description_text": "Preparado con granos de especialidad Caracolito. Notas de melocotón y chocolate blanco que deleitan el paladar. Una experiencia suave y refinada para los amantes del café gourmet.",
+                "position": "top",
+                "title_size": "h4",
+                "title_color": "#1C0A00",
+                "description_color": "#666666",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Playfair Display",
+                "title_typography_font_size": { "unit": "px", "size": 22, "sizes": [] },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Lato",
+                "description_typography_font_size": { "unit": "px", "size": 14, "sizes": [] },
+                "description_typography_line_height": { "unit": "em", "size": 1.8 }
+              },
+              "elements": []
+            },
+            {
+              "id": "s6wgt001b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-family:'Lato',sans-serif; font-size:12px; color:#E20021; font-weight:700; letter-spacing:2px; text-transform:uppercase; margin-top:-10px\">Grano Caracolito · Edición Especial</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "s6col002",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 33 },
+          "elements": [
+            {
+              "id": "s6wgt002",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": { "url": "", "id": "", "alt": "Café Sierra Nevada Juan Valdez" },
+                "title_text": "Sierra Nevada",
+                "description_text": "Cultivado en las estribaciones de la Sierra Nevada de Santa Marta, la montaña costera más alta del mundo. Un café de alturas extremas con notas herbales y frutales únicas.",
+                "position": "top",
+                "title_size": "h4",
+                "title_color": "#1C0A00",
+                "description_color": "#666666",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Playfair Display",
+                "title_typography_font_size": { "unit": "px", "size": 22, "sizes": [] },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Lato",
+                "description_typography_font_size": { "unit": "px", "size": 14, "sizes": [] },
+                "description_typography_line_height": { "unit": "em", "size": 1.8 }
+              },
+              "elements": []
+            },
+            {
+              "id": "s6wgt002b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-family:'Lato',sans-serif; font-size:12px; color:#E20021; font-weight:700; letter-spacing:2px; text-transform:uppercase; margin-top:-10px\">Alta Montaña · Perfil Herbal</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "s6col003",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 33 },
+          "elements": [
+            {
+              "id": "s6wgt003",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": { "url": "", "id": "", "alt": "Café Caldas Juan Valdez" },
+                "title_text": "Caldas",
+                "description_text": "Proveniente del corazón del Eje Cafetero colombiano, región declarada Patrimonio de la Humanidad. Equilibrio perfecto entre acidez, cuerpo y dulzura. El café más representativo de Colombia.",
+                "position": "top",
+                "title_size": "h4",
+                "title_color": "#1C0A00",
+                "description_color": "#666666",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Playfair Display",
+                "title_typography_font_size": { "unit": "px", "size": 22, "sizes": [] },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Lato",
+                "description_typography_font_size": { "unit": "px", "size": 14, "sizes": [] },
+                "description_typography_line_height": { "unit": "em", "size": 1.8 }
+              },
+              "elements": []
+            },
+            {
+              "id": "s6wgt003b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-family:'Lato',sans-serif; font-size:12px; color:#E20021; font-weight:700; letter-spacing:2px; text-transform:uppercase; margin-top:-10px\">Eje Cafetero · Patrimonio Mundial</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "s7hist001",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "css_id": "historia",
+        "background_background": "classic",
+        "background_color": "#F9F3E8",
+        "padding": { "unit": "px", "top": "100", "right": "60", "bottom": "100", "left": "60", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "s7col001",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 55, "align_self": "center" },
+          "elements": [
+            {
+              "id": "s7wgt001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-family:'Lato',sans-serif; font-size:12px; color:#E20021; font-weight:700; letter-spacing:4px; text-transform:uppercase; margin-bottom:10px\">Nuestra Historia</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "s7wgt002",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Más de 65 Años Llevando a Colombia al Mundo",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#1C0A00",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 40, "sizes": [] },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.25 }
+              },
+              "elements": []
+            },
+            {
+              "id": "s7wgt003",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "solid",
+                "color": "#E20021",
+                "weight": { "unit": "px", "size": 3 },
+                "width": { "unit": "px", "size": 60 },
+                "align": "left",
+                "gap": { "unit": "px", "size": 25 }
+              },
+              "elements": []
+            },
+            {
+              "id": "s7wgt004",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-family:'Lato',sans-serif; font-size:16px; color:#555555; line-height:1.9; margin-bottom:20px\">En 1959, la Federación Nacional de Cafeteros de Colombia creó una figura que cambiaría para siempre la percepción del café colombiano en el mundo: <strong>Juan Valdez</strong>, el icónico caficultor con su fiel mula Conchita.</p><p style=\"font-family:'Lato',sans-serif; font-size:16px; color:#555555; line-height:1.9; margin-bottom:20px\">En un momento en que los precios del café colombiano habían caído a la mitad, era necesario diferenciar el café de Colombia de las mezclas genéricas. Juan Valdez se convirtió en el símbolo de la autenticidad, el orgullo y la dedicación del caficultor colombiano.</p><p style=\"font-family:'Lato',sans-serif; font-size:16px; color:#555555; line-height:1.9\">En 2002, la marca abrió su primera tienda física en Bogotá, y hoy cuenta con más de 300 puntos de venta en más de 13 países. Juan Valdez es la única marca de café internacional que pertenece directamente a los caficultores — más de <strong>540.000 familias</strong> que son dueñas de su propio destino.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "s7wgt005",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Conoce Más",
+                "link": { "url": "#contacto", "is_external": false, "nofollow": false },
+                "align": "left",
+                "background_color": "transparent",
+                "button_text_color": "#E20021",
+                "border_border": "solid",
+                "border_width": { "unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true },
+                "border_color": "#E20021",
+                "border_radius": { "unit": "px", "top": "3", "right": "3", "bottom": "3", "left": "3", "isLinked": true },
+                "text_padding": { "unit": "px", "top": "15", "right": "35", "bottom": "15", "left": "35", "isLinked": false },
+                "typography_typography": "custom",
+                "typography_font_family": "Lato",
+                "typography_font_size": { "unit": "px", "size": 13, "sizes": [] },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": { "unit": "px", "size": 2 },
+                "typography_text_transform": "uppercase",
+                "hover_color": "#FFFFFF",
+                "button_background_hover_color": "#E20021"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "s7col002",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 45 },
+          "elements": [
+            {
+              "id": "s7wgt006",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "", "id": "", "alt": "Historia Juan Valdez Colombia" },
+                "image_size": "full",
+                "align": "center",
+                "caption_source": "none",
+                "border_border": "none",
+                "border_radius": { "unit": "px", "top": "4", "right": "4", "bottom": "4", "left": "4", "isLinked": true },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": { "horizontal": 0, "vertical": 20, "blur": 50, "spread": 0, "color": "rgba(0,0,0,0.15)" }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "s8stat001",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1C0A00",
+        "padding": { "unit": "px", "top": "80", "right": "60", "bottom": "80", "left": "60", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "s8col001",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "s8wgt001",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 65,
+                "prefix": "",
+                "suffix": "+",
+                "duration": 2000,
+                "title": "Años de Historia",
+                "title_color": "rgba(255,255,255,0.75)",
+                "number_color": "#C8A951",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 60, "sizes": [] },
+                "typography_font_weight": "700",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Lato",
+                "title_typography_font_size": { "unit": "px", "size": 14, "sizes": [] },
+                "title_typography_letter_spacing": { "unit": "px", "size": 2 },
+                "title_typography_text_transform": "uppercase"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "s8col002",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "s8wgt002",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 540,
+                "prefix": "",
+                "suffix": "K",
+                "duration": 2000,
+                "title": "Familias Cafeteras",
+                "title_color": "rgba(255,255,255,0.75)",
+                "number_color": "#C8A951",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 60, "sizes": [] },
+                "typography_font_weight": "700",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Lato",
+                "title_typography_font_size": { "unit": "px", "size": 14, "sizes": [] },
+                "title_typography_letter_spacing": { "unit": "px", "size": 2 },
+                "title_typography_text_transform": "uppercase"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "s8col003",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "s8wgt003",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 13,
+                "prefix": "",
+                "suffix": "+",
+                "duration": 2000,
+                "title": "Países en el Mundo",
+                "title_color": "rgba(255,255,255,0.75)",
+                "number_color": "#C8A951",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 60, "sizes": [] },
+                "typography_font_weight": "700",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Lato",
+                "title_typography_font_size": { "unit": "px", "size": 14, "sizes": [] },
+                "title_typography_letter_spacing": { "unit": "px", "size": 2 },
+                "title_typography_text_transform": "uppercase"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "s8col004",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "s8wgt004",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 300,
+                "prefix": "",
+                "suffix": "+",
+                "duration": 2000,
+                "title": "Tiendas Mundiales",
+                "title_color": "rgba(255,255,255,0.75)",
+                "number_color": "#C8A951",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 60, "sizes": [] },
+                "typography_font_weight": "700",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Lato",
+                "title_typography_font_size": { "unit": "px", "size": 14, "sizes": [] },
+                "title_typography_letter_spacing": { "unit": "px", "size": 2 },
+                "title_typography_text_transform": "uppercase"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "s9cont001",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "css_id": "contacto",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "100", "right": "60", "bottom": "100", "left": "60", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "s9col001",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 45, "align_self": "center" },
+          "elements": [
+            {
+              "id": "s9wgt001",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-family:'Lato',sans-serif; font-size:12px; color:#E20021; font-weight:700; letter-spacing:4px; text-transform:uppercase; margin-bottom:10px\">Contáctanos</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "s9wgt002",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Estamos Aquí Para Servirte",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#1C0A00",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 38, "sizes": [] },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.25 }
+              },
+              "elements": []
+            },
+            {
+              "id": "s9wgt003",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "solid",
+                "color": "#E20021",
+                "weight": { "unit": "px", "size": 3 },
+                "width": { "unit": "px", "size": 60 },
+                "align": "left",
+                "gap": { "unit": "px", "size": 25 }
+              },
+              "elements": []
+            },
+            {
+              "id": "s9wgt004",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-family:'Lato',sans-serif; font-size:16px; color:#555555; line-height:1.9; margin-bottom:30px\">¿Tienes alguna pregunta sobre nuestros productos, deseas distribuir Juan Valdez en tu región, o simplemente quieres saber más sobre el café colombiano? Con gusto te atendemos.</p><div style=\"margin-bottom:15px\"><p style=\"font-family:'Lato',sans-serif; font-size:14px; color:#1C0A00; font-weight:700; letter-spacing:1px; text-transform:uppercase; margin-bottom:5px\">📍 Sede Principal</p><p style=\"font-family:'Lato',sans-serif; font-size:15px; color:#666\">Bogotá, Colombia</p></div><div style=\"margin-bottom:15px\"><p style=\"font-family:'Lato',sans-serif; font-size:14px; color:#1C0A00; font-weight:700; letter-spacing:1px; text-transform:uppercase; margin-bottom:5px\">🌐 Redes Sociales</p><p style=\"font-family:'Lato',sans-serif; font-size:15px; color:#666\">@juanvaldezcafe en Instagram y Facebook</p></div><div><p style=\"font-family:'Lato',sans-serif; font-size:14px; color:#1C0A00; font-weight:700; letter-spacing:1px; text-transform:uppercase; margin-bottom:5px\">☕ Horario de Atención</p><p style=\"font-family:'Lato',sans-serif; font-size:15px; color:#666\">Lunes a Viernes: 8:00 AM - 6:00 PM</p></div>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "s9col002",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 55,
+            "background_background": "classic",
+            "background_color": "#F9F3E8",
+            "border_border": "none",
+            "border_radius": { "unit": "px", "top": "6", "right": "6", "bottom": "6", "left": "6", "isLinked": true },
+            "padding": { "unit": "px", "top": "50", "right": "50", "bottom": "50", "left": "50", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "s9wgt005",
+              "elType": "widget",
+              "widgetType": "form",
+              "settings": {
+                "form_name": "Contacto Juan Valdez",
+                "form_fields": [
+                  {
+                    "_id": "campo_nombre",
+                    "field_type": "text",
+                    "field_label": "Nombre Completo",
+                    "placeholder": "Tu nombre completo",
+                    "required": "true",
+                    "width": "100"
+                  },
+                  {
+                    "_id": "campo_email",
+                    "field_type": "email",
+                    "field_label": "Correo Electrónico",
+                    "placeholder": "tu@correo.com",
+                    "required": "true",
+                    "width": "100"
+                  },
+                  {
+                    "_id": "campo_telefono",
+                    "field_type": "tel",
+                    "field_label": "Teléfono (opcional)",
+                    "placeholder": "+57 300 000 0000",
+                    "required": "false",
+                    "width": "100"
+                  },
+                  {
+                    "_id": "campo_mensaje",
+                    "field_type": "textarea",
+                    "field_label": "¿En qué podemos ayudarte?",
+                    "placeholder": "Cuéntanos tu consulta...",
+                    "required": "true",
+                    "width": "100",
+                    "rows": 5
+                  }
+                ],
+                "button_text": "Enviar Mensaje",
+                "button_size": "md",
+                "button_background_color": "#E20021",
+                "button_text_color": "#FFFFFF",
+                "button_border_radius": { "unit": "px", "top": "3", "right": "3", "bottom": "3", "left": "3", "isLinked": true },
+                "button_typography_typography": "custom",
+                "button_typography_font_family": "Lato",
+                "button_typography_font_weight": "700",
+                "button_typography_letter_spacing": { "unit": "px", "size": 2 },
+                "button_typography_text_transform": "uppercase",
+                "label_color": "#1C0A00",
+                "label_typography_typography": "custom",
+                "label_typography_font_family": "Lato",
+                "label_typography_font_size": { "unit": "px", "size": 13, "sizes": [] },
+                "label_typography_font_weight": "700",
+                "label_typography_letter_spacing": { "unit": "px", "size": 1 },
+                "input_background_color": "#FFFFFF",
+                "input_border_color": "#E0D5C5",
+                "input_border_radius": { "unit": "px", "top": "3", "right": "3", "bottom": "3", "left": "3", "isLinked": true }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "s10ft001",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0F0500",
+        "padding": { "unit": "px", "top": "70", "right": "60", "bottom": "30", "left": "60", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "s10col001",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 40 },
+          "elements": [
+            {
+              "id": "s10wgt001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"color:#FFFFFF; font-family:'Playfair Display',serif; font-size:26px\">Juan Valdez</span><br><span style=\"color:#C8A951; font-family:'Lato',sans-serif; font-size:10px; letter-spacing:4px; font-weight:400\">CAFÉ DE COLOMBIA</span>",
+                "header_size": "h2",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "s10wgt002",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-family:'Lato',sans-serif; font-size:14px; color:rgba(255,255,255,0.55); line-height:1.9; margin-top:15px\">La única marca de café internacional que pertenece a los caficultores colombianos. Desde 1959, llevando el alma de Colombia al mundo en cada taza.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "s10wgt003",
+              "elType": "widget",
+              "widgetType": "social-icons",
+              "settings": {
+                "social_icon_list": [
+                  {
+                    "_id": "si_instagram",
+                    "social_icon": { "value": "fab fa-instagram", "library": "fa-brands" },
+                    "link": { "url": "https://instagram.com/juanvaldezcafe", "is_external": true, "nofollow": false },
+                    "item_icon_color": "custom",
+                    "icon_primary_color": "#C8A951",
+                    "icon_secondary_color": "transparent"
+                  },
+                  {
+                    "_id": "si_facebook",
+                    "social_icon": { "value": "fab fa-facebook-f", "library": "fa-brands" },
+                    "link": { "url": "https://facebook.com/juanvaldezcafe", "is_external": true, "nofollow": false },
+                    "item_icon_color": "custom",
+                    "icon_primary_color": "#C8A951",
+                    "icon_secondary_color": "transparent"
+                  },
+                  {
+                    "_id": "si_tiktok",
+                    "social_icon": { "value": "fab fa-tiktok", "library": "fa-brands" },
+                    "link": { "url": "https://tiktok.com/@juanvaldezcafe", "is_external": true, "nofollow": false },
+                    "item_icon_color": "custom",
+                    "icon_primary_color": "#C8A951",
+                    "icon_secondary_color": "transparent"
+                  }
+                ],
+                "icon_size": { "unit": "px", "size": 16, "sizes": [] },
+                "icon_spacing": { "unit": "px", "size": 8, "sizes": [] },
+                "shape": "circle",
+                "align": "left",
+                "_margin": { "unit": "px", "top": "20", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "s10col002",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 30 },
+          "elements": [
+            {
+              "id": "s10wgt004",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Navegación",
+                "header_size": "h5",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Lato",
+                "typography_font_size": { "unit": "px", "size": 12, "sizes": [] },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase"
+              },
+              "elements": []
+            },
+            {
+              "id": "s10wgt005",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<ul style=\"list-style:none; padding:0; margin:15px 0 0 0\"><li style=\"margin-bottom:12px\"><a href=\"#inicio\" style=\"font-family:'Lato',sans-serif; font-size:14px; color:rgba(255,255,255,0.55); text-decoration:none; transition:color 0.3s\">Inicio</a></li><li style=\"margin-bottom:12px\"><a href=\"#productos\" style=\"font-family:'Lato',sans-serif; font-size:14px; color:rgba(255,255,255,0.55); text-decoration:none\">Nuestros Cafés</a></li><li style=\"margin-bottom:12px\"><a href=\"#historia\" style=\"font-family:'Lato',sans-serif; font-size:14px; color:rgba(255,255,255,0.55); text-decoration:none\">Historia</a></li><li style=\"margin-bottom:12px\"><a href=\"#contacto\" style=\"font-family:'Lato',sans-serif; font-size:14px; color:rgba(255,255,255,0.55); text-decoration:none\">Contacto</a></li></ul>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "s10col003",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 30 },
+          "elements": [
+            {
+              "id": "s10wgt006",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nuestros Cafés",
+                "header_size": "h5",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Lato",
+                "typography_font_size": { "unit": "px", "size": 12, "sizes": [] },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase"
+              },
+              "elements": []
+            },
+            {
+              "id": "s10wgt007",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<ul style=\"list-style:none; padding:0; margin:15px 0 0 0\"><li style=\"margin-bottom:10px\"><span style=\"font-family:'Lato',sans-serif; font-size:14px; color:rgba(255,255,255,0.55)\">Volcán</span></li><li style=\"margin-bottom:10px\"><span style=\"font-family:'Lato',sans-serif; font-size:14px; color:rgba(255,255,255,0.55)\">Huila</span></li><li style=\"margin-bottom:10px\"><span style=\"font-family:'Lato',sans-serif; font-size:14px; color:rgba(255,255,255,0.55)\">Finca</span></li><li style=\"margin-bottom:10px\"><span style=\"font-family:'Lato',sans-serif; font-size:14px; color:rgba(255,255,255,0.55)\">Colina</span></li><li style=\"margin-bottom:10px\"><span style=\"font-family:'Lato',sans-serif; font-size:14px; color:rgba(255,255,255,0.55)\">Sierra Nevada</span></li><li style=\"margin-bottom:10px\"><span style=\"font-family:'Lato',sans-serif; font-size:14px; color:rgba(255,255,255,0.55)\">Caldas</span></li></ul>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "s10ft002",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#080200",
+        "padding": { "unit": "px", "top": "20", "right": "60", "bottom": "20", "left": "60", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "s10col004",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "s10wgt008",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-family:'Lato',sans-serif; font-size:13px; color:rgba(255,255,255,0.3); margin:0\">© 2024 Juan Valdez Café — Federación Nacional de Cafeteros de Colombia. Todos los derechos reservados.</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "s10col005",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "s10wgt009",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-family:'Lato',sans-serif; font-size:13px; color:rgba(255,255,255,0.3); text-align:right; margin:0\">Hecho con ☕ en Colombia — El Mejor Café del Mundo</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "page_layout": "elementor_canvas"
+  }
+}
